@@ -6,7 +6,7 @@ class MyList
     @list = args
   end
 
-  def each(&)
-    @list.each(&)
+  def each()
+    @list.each
   end
 end
